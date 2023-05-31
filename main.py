@@ -24,7 +24,7 @@ async def comment(event: telethon.events.NewMessage):
     msg = event.message
     print(msg)
     if msg.is_private:
-        await msg.reply("Привет! Напиши мне в основной аккаунт @easytims")
+        await msg.reply("")
         return
     elif msg.post:
         prompt = msg.message
