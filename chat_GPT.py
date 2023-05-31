@@ -3,7 +3,7 @@ import asyncio
 import openai
 
 
-openai.api_key = "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"
+openai.api_key = ""
 
 
 async def text(text):
